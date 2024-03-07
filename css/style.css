@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-pills .nav-link {
+    background-color: white;
+    color: #0d6efd;
+}
+
+.nav-item-sub a {
+    background-color: white;
+    color: #0d6efd;
+
+}
+
+.nav-item-sub a:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.header-form-button{
+position: absolute;
+top: 0;
+left: 0;
+z-index: 100;
+background: rgb(244,161,0);
+    background: linear-gradient(253deg, rgba(244,161,0,1) 0%, rgba(255,252,220,1) 17%, rgba(245,192,43,1) 32%, rgba(255,233,83,1) 53%, rgba(237,127,0,1) 69%, rgba(255,237,0,1) 77%, rgba(249,237,170,1) 92%, rgba(239,130,0,1) 100%)
+}
+
+.navbar-white .navbar-toggler-icon {
+    /* 三本線 */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(3,3, 3, 51)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/*動画の内容*/
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.video-custom {
+    line-height: 4rem;
+    font-weight: bold;
+    font-size: 2.75rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .8);
+
+    top: 25vh;
+}
+
+
+element.style {
+    background-image: url(./css/overlays/07.png);
+}
+
+.vegas-overlay {
+    opacity: .75;
+    opacity: .5;
+    background: url(overlays/02.png) center;
+}
+.text{
+   color: #EA5523;
+}
+h1 span:nth-of-type(2) {
+    margin-top: 2.5rem;
+}
+h1 span:nth-of-type(2) {
+    display: block;
+    font-size: 1.75rem;
+}
+
+
+
+
+
+
+.attractive {
+    background-color: rgba(79, 188, 16, 0.25)
+}
+
+.size1 {
+    color: #328443;
+    font-weight: bold;
+}
+
+.size2 {
+    font-weight: bold;
+    color: #707070;
+}
+
+.addop {
+    opacity: 0;
+    transition: 1.5s;
+    margin-top: 60px;
+}
+
+.showUp1 {
+    opacity: 1;
+    margin-top: 0;
+}
+
+.addop2 {
+    opacity: 0;
+    transition: 2.1s;
+    margin-top: 60px;
+}
+
+.showUp2 {
+    opacity: 1;
+    margin-top: 0;
+}
+
+.nav-anime {
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 57px;
+    line-height: 57px;
+    margin: 40px auto;
+    text-align: center;
+    text-decoration: none;
+    color: #0d6efd;
+    font-weight: bold;
+    transition: .25s;
+    box-shadow: 2px 2px 5px 0px rgba(200, 200, 200, 1);
+    background-color: #ffffff;
+}
+
+
+
+
+.nav-anime::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+}
+
+.nav-anime::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+}
+
+.nav-anime:hover {
+    color: #384878;
+}
+
+.nav-anime:hover::before {
+    width: 100%;
+    height: 100%;
+    border-top-color: #384878;
+    border-right-color: #384878;
+    transition: width .25s ease-out, height .25s ease-out .25s;
+}
+
+.nav-anime:hover::after {
+    width: 100%;
+    height: 100%;
+    border-bottom-color: #384878;
+    border-left-color: #384878;
+    transition: border-color 0s ease-out .5s, width .25s ease-out .5s, height .25s ease-out .75s;
+}
+
+.inner {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.inner {
+    position: relative;
+    z-index: 1;
+}
+
+.tex {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    z-index: -1;
+}
+
+/*carouselに入る*/
+.item-wrapper{
+    width: 480px;
+    height: 920px;
+}
+.contain{
+    margin-top: 40px;
+}
+
+
+
+.img-size{
+    object-fit: cover;
+}
+.content-head{
+    display: inline;
+    border-bottom: 1px solid black;
+}
+
+.contain2{
+   
+    position: relative;
+    margin-top: 210px;
+    padding-top: 7px; 
+    padding-bottom: 7px;
+}
+.bottom{
+    border-bottom: 3px solid #dee2e6;
+}
+
+/*車・料金に入ります*/
+.contain2{
+    margin-top: 210px;
+}
+.contain3{
+    margin-top: 60px;
+}
+.design{
+margin-top: 26px;
+}
+.sample{
+    /* 拡大してはみ出した部分を非表示にする */
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+ 
+    border: 3px solid #999;/* 装飾のため、なくてもOK */
+}
+ 
+.sample img{
+    /* 拡大するのにかかる時間 */
+    transition:all 0.3s;
+}
+ 
+.sample img:hover{
+    /* ホバーしたら1.2倍サイズに拡大 */
+    transform: scale(1.2);
+}
+.design2{
+    margin-left: 35px;
+}
+.design3{
+    margin-left: 140px;
+}
+.design4{
+    width: 300px;
+    height: 900px;
+}
+
+
+.truck{
+width: 1200px;
+height: 670px;
+    object-fit: fill;
+   
+}
